@@ -1,0 +1,9 @@
+[submodule "osu-server"]
+	path = osu-server
+	url = http://github.com/ppy/osu-server
+[submodule "osu-performance"]
+	path = osu-performance
+	url = https://github.com/ppy/osu-performance
+[submodule "osu-web"]
+	path = osu-web
+	url = https://github.com/ppy/osu-web

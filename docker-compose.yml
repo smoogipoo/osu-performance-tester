@@ -1,0 +1,6 @@
+version: '3.4'
+
+services:
+  db:
+    volumes:
+      - database:/etc/mysql/conf.d

@@ -1,6 +1,14 @@
 version: '3.4'
 
+# Paths have to be relative to ./osu-web!!
+
+x-env: &x-env
+  SQL_DIR: ../sql
+
 services:
   db:
     volumes:
-      - database:/etc/mysql/conf.d
+      - ../db:/etc/mysql/conf.d
+  php:
+    volumes:
+      - ../php/start:/data/osuweb/php/start
